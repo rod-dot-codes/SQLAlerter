@@ -13,6 +13,8 @@ You need to set the Pushover API key and client key.
 
 Furthermore, you need to specify whether you are on a Domain using domain authentication or using user/password based authentication.
 
+You need to install SQLAlchemy and configure it to accept pyodbc+mssql connections. There are lot's of guides online on how to do this!
+
 Thereafter, simply run the script: type in the name of the server you want to connect to and follow the prompts.
 
 ##Further work that would be nice:
